@@ -1,3 +1,72 @@
-section {
-  color: blue;
+/* * {
+  background-color: aqua;
+} */
+
+body {
+  /* color: #7fdc8d; */
+}
+
+h1,
+h2 {
+  color: darkslateblue;
+}
+
+#login {
+  background-color: #7fdc8d;
+  color: #c01a1a;
+}
+
+.second {
+  background-color: #c01a1a;
+  color: yellow;
+}
+
+span {
+  color: #780000;
+}
+
+.tag {
+  background-color: #ffb703;
+  color: white;
+}
+
+.post a {
+  color: #4f1f75b7;
+}
+
+li a {
+  color: #7c0130;
+}
+
+h2 + button {
+  color: rgb(88, 45, 5);
+  font-size: 16px;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #e03778;
+}
+
+input[type="password"] {
+  color: #eba904;
+}
+
+a:hover {
+  color: rgb(29, 100, 67);
+  background-color: #abdbabd7;
+  font-size: 30px;
+}
+
+.post button:hover {
+  background-color: red;
+}
+
+.post button:active {
+  background-color: #e03778;
+}
+
+li:nth-of-type(2n) {
+  background-color: aqua;
+  display: inline;
 }
