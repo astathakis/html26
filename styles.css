@@ -55,7 +55,7 @@ input[type="password"] {
 a:hover {
   color: rgb(29, 100, 67);
   background-color: #abdbabd7;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 .post button:hover {
@@ -69,4 +69,19 @@ a:hover {
 li:nth-of-type(2n) {
   background-color: aqua;
   display: inline;
+}
+
+.post:nth-last-of-type(2n) {
+  background-color: coral;
+}
+
+h2::first-letter {
+  font-size: 40px;
+}
+
+p::first-line {
+  color: #7c0130;
+}
+p::selection {
+  background-color: #eba904;
 }

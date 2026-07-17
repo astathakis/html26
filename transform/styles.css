@@ -1,0 +1,33 @@
+body {
+  background-color: #23ffc1b9;
+}
+
+h1 {
+  background-color: #452b23;
+  border: 2px solid #ffa;
+  color: #fff;
+  padding: 0.7em;
+  width: 250px;
+  font-size: 1.3em;
+  margin: 20px auto;
+  font-family: Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+h1:nth-of-type(2n) {
+  background-color: #e9c43a;
+}
+h1:nth-of-type(3n) {
+  background-color: #f46f3a;
+}
+
+section:first-of-type h1:nth-of-type(1) {
+  /* transform-origin: right; */
+  transform: rotate(45deg);
+}
+section:first-of-type h1:nth-of-type(2) {
+  transform: scale(0.5);
+}
+section:first-of-type h1:nth-of-type(3) {
+  transform: translateX(2em);
+}
